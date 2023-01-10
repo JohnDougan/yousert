@@ -34,7 +34,7 @@ class App
                 $data = Fabric::getOtdelCrud();
                 break;
             case 'user':
-                $data = F
+                $data = Fabric::
         }
 
 

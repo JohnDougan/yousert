@@ -4,12 +4,14 @@
 namespace Model;
 
 
+use Fabric;
+
 class UserCrud implements CrudInterface
 {
     private $db;
     public function __construct()
     {
-        $this->db = \Fabric::getDB();
+        $this->db = Fabric::getDB();
     }
 
     public function load($id = null, $otdel = null)

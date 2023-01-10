@@ -9,11 +9,9 @@ use Fabric;
 class OtderCrud implements CrudInterface
 {
     private $db;
-    private $route;
-    public function __construct($route)
+    public function __construct()
     {
         $this->db = Fabric::getDB();
-        $this->route = $route;
     }
 
     public function load($id = null)
