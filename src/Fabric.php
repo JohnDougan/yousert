@@ -1,6 +1,9 @@
 <?php
 
 
+use Model\OtderCrud;
+use Model\UserCrud;
+
 class Fabric
 {
     private static $db;
@@ -19,8 +22,13 @@ class Fabric
         return self::$db;
     }
 
-    public static function getOtdelCrud($route)
+    public static function getOtdelCrud()
     {
-        return new
+        return new OtderCrud();
+    }
+
+    public static function getUserCrud()
+    {
+        return new UserCrud();
     }
 }
