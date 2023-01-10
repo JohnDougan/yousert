@@ -1,0 +1,20 @@
+{
+    "name": "vendor_name/yousert",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "rip",
+            "email": "rip76@mail.ru"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^3.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
