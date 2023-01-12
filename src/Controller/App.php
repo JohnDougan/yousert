@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Model;
+namespace Controller;
 
 
 use Fabric;
@@ -21,7 +21,8 @@ class App
 
     private function actionIndex()
     {
-        // TODO
+
+        require_once(\Config::viewsPath().'index.php');
     }
 
     private function actionAjax()
@@ -34,7 +35,8 @@ class App
                 $data = Fabric::getOtdelCrud();
                 break;
             case 'user':
-                $data = Fabric::
+                $data = Fabric::getUserCrud();
+                break;
         }
 
 
@@ -78,14 +80,13 @@ class App
     {
         // Запуск приложения
 
-
-
         // Определяем модуль и передаем управление
         if (isset($this->route[0])  && !empty($this->route[0])) {
             $methodName = 'action'.ucfirst($this->route[0]);
             if(method_exists($this, $methodName)) $this->$methodName();
             else $this->actionIndex();
         }
+        else $this->actionIndex();
     }
 
 }

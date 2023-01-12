@@ -1,4 +1,5 @@
 .idea/
 src/Config.php
 vendor/
-public/images/upload/*
+public/images/
+!public/images/.htaccess
