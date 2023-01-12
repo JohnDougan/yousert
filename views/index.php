@@ -84,8 +84,8 @@
 
                 <div class="main-buttons row">
                     <div class="col-3 d-grid gap-2">
-                        <button class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#section-modal">Создать отдел +</button>
-                        <button class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#user-modal">Добавить сотрудника +</button>
+                        <button class="btn btn-lg btn-primary add-section">Создать отдел +</button>
+                        <button class="btn btn-lg btn-primary add-user">Добавить сотрудника +</button>
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@
                                 <h5>Название отдела</h5>
                                 <span><a href="#">Руководитель отдела</a></span>
                             </div>
-                            <div class="section-control">Управление</div>
+                            <div class="section-control"><a href="#" class="section-control-update" data-id="1"><i class="fa fa-pencil"></i></a></div>
                         </div>
                         <div class="section-users">
                             <div class="section-user row">
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="section-subs">
-                            <div class="section sub">
+                            <div class="section">
                                 <div class="section-header">
                                     <div class="section-title">
                                         <h5>Название отдела</h5>
@@ -252,7 +252,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отменить</button>
-                        <button type="button" class="btn btn-primary" id="section-form-submit" form="section-update-form" disabled="disabled">Сохранить</button>
+                        <input type="submit" class="btn btn-primary" value="Сохранить" id="section-form-submit" form="section-update-form" disabled="disabled">
                     </div>
                 </div>
             </div>

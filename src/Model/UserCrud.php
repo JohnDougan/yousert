@@ -14,22 +14,20 @@ class UserCrud implements CrudInterface
         $this->db = Fabric::getDB();
     }
 
-    public function load($id = null, $otdel = null)
+    public function load($data)
     {
-        // TODO: Implement load() method.
+        if(isset($data['id'])) $out = $this->db->executeQuery("SELECT * FROM users WHERE id = :id", $data);
+        elseif(isset($data['section'])) $out = $this->db->executeQuery("SELECT * FROM users WHERE section = :section", $data);
+
+        return $out->fetchAllAssociative();
     }
 
-    public function create($data)
-    {
-        // TODO: Implement create() method.
-    }
-
-    public function update($id, $data)
+    public function update($data)
     {
         // TODO: Implement update() method.
     }
 
-    public function delete($ud)
+    public function delete($data)
     {
         // TODO: Implement delete() method.
     }
