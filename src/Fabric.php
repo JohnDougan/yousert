@@ -7,6 +7,8 @@ use Model\UserCrud;
 class Fabric
 {
     private static $db;
+    private static $user;
+    private static $otdel;
     public static function getDB()
     {
         if(!self::$db) {
@@ -24,11 +26,17 @@ class Fabric
 
     public static function getOtdelCrud()
     {
-        return new OtderCrud();
+        if(!self::$otdel) {
+            self::$otdel = new OtderCrud();
+        }
+        return self::$otdel;
     }
 
     public static function getUserCrud()
     {
-        return new UserCrud();
+        if(!self::$user) {
+            self::$user = new UserCrud();
+        }
+        return self::$user;
     }
 }

@@ -6,8 +6,7 @@ namespace Model;
 
 interface CrudInterface
 {
-    public function load($id = null);
-    public function create($data);
-    public function update($id, $data);
-    public function delete($ud);
+    public function load($data);
+    public function update($data);
+    public function delete($data);
 }

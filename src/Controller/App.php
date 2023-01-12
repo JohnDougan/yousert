@@ -31,7 +31,7 @@ class App
         array_shift($route);
 
         switch($route[0]) {
-            case 'otdel':
+            case 'section':
                 $data = Fabric::getOtdelCrud();
                 break;
             case 'user':
@@ -39,11 +39,9 @@ class App
                 break;
         }
 
-
-
-
-        // TODO
-        return true;
+        $out = null;
+        if(method_exists($data, $route[1])) $out = $data->{$route[1]}($_POST);
+        die(json_encode($out));
     }
 
 
