@@ -103,11 +103,18 @@ a:hover {
 .section-user-controls {
     padding-right: 20px;
 }
-
-
-
-
-
+.user-socials-fields input {
+    margin-bottom: 0.5rem;
+}
+.user-info-label, .remark {
+    color: #828282;
+    font-size: 12px;
+}
+.user-info-text {
+    color: #4F4F4F;
+    font-weight: 500;
+    margin-bottom:15px;
+}
 
 .form-header {
     background: #E4EDED;
@@ -119,17 +126,7 @@ a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Переопределение стилей bootstrap */
-
 .btn-primary {
     background: linear-gradient(293.21deg, #26B3C5 37.21%, #5DD6A1 99.13%);
     box-shadow: 0px 0px 40px rgba(227, 227, 227, 0.2), 0px 4px 30px rgba(220, 220, 220, 0.2);

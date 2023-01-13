@@ -19,6 +19,19 @@ class App
         $this->route = explode("/", $_SERVER['QUERY_STRING']);
     }
 
+    public function run()
+    {
+        // Запуск приложения
+
+        // Определяем модуль и передаем управление
+        if (isset($this->route[0])  && !empty($this->route[0])) {
+            $methodName = 'action'.ucfirst($this->route[0]);
+            if(method_exists($this, $methodName)) $this->$methodName();
+            else $this->actionIndex();
+        }
+        else $this->actionIndex();
+    }
+
     private function actionIndex()
     {
 
@@ -43,48 +56,4 @@ class App
         if(method_exists($data, $route[1])) $out = $data->{$route[1]}($_POST);
         die(json_encode($out));
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public function run()
-    {
-        // Запуск приложения
-
-        // Определяем модуль и передаем управление
-        if (isset($this->route[0])  && !empty($this->route[0])) {
-            $methodName = 'action'.ucfirst($this->route[0]);
-            if(method_exists($this, $methodName)) $this->$methodName();
-            else $this->actionIndex();
-        }
-        else $this->actionIndex();
-    }
-
 }
