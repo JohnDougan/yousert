@@ -90,135 +90,39 @@
                 </div>
 
                 <div class="main-body" style="margin-top: 30px">
-                    <div class="section">
-                        <div class="section-header">
-                            <div class="section-title">
-                                <h5>Название отдела</h5>
-                                <span><a href="#">Руководитель отдела</a></span>
-                            </div>
-                            <div class="section-control"><a href="#" class="section-control-update" data-id="1"><i class="fa fa-pencil"></i></a></div>
-                        </div>
-                        <div class="section-users">
-                            <div class="section-user row">
-                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                            </div>
-                            <div class="section-user row">
-                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                            </div>
-                        </div>
-                        <div class="section-subs">
-                            <div class="section">
-                                <div class="section-header">
-                                    <div class="section-title">
-                                        <h5>Название отдела</h5>
-                                        <span><a href="#">Руководитель отдела</a></span>
-                                    </div>
-                                    <div class="section-control">Управление</div>
-                                </div>
-                                <div class="section-users">
-                                    <div class="section-user row">
-                                        <div class="section-user-title col-2">Имя сотрудника</div>
-                                        <div class="section-user-position col-2">Должность сотрудника</div>
-                                        <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                    </div>
-                                    <div class="section-user row">
-                                        <div class="section-user-title col-2">Имя сотрудника</div>
-                                        <div class="section-user-position col-2">Должность сотрудника</div>
-                                        <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                    </div>
-                                    <div class="section-user row">
-                                        <div class="section-user-title col-2">Имя сотрудника</div>
-                                        <div class="section-user-position col-2">Должность сотрудника</div>
-                                        <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                    </div>
-                                    <div class="section-user row">
-                                        <div class="section-user-title col-2">Имя сотрудника</div>
-                                        <div class="section-user-position col-2">Должность сотрудника</div>
-                                        <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                    </div>
-                                </div>
-                                <div class="section sub">
-                                    <div class="section-header">
-                                        <div class="section-title">
-                                            <h5>Название отдела</h5>
-                                            <span><a href="#">Руководитель отдела</a></span>
-                                        </div>
-                                        <div class="section-control">Управление</div>
-                                    </div>
-                                    <div class="section-users">
-                                        <div class="section-user row">
-                                            <div class="section-user-title col-2">Имя сотрудника</div>
-                                            <div class="section-user-position col-2">Должность сотрудника</div>
-                                            <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                        </div>
-                                        <div class="section-user row">
-                                            <div class="section-user-title col-2">Имя сотрудника</div>
-                                            <div class="section-user-position col-2">Должность сотрудника</div>
-                                            <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                        </div>
-                                        <div class="section-user row">
-                                            <div class="section-user-title col-2">Имя сотрудника</div>
-                                            <div class="section-user-position col-2">Должность сотрудника</div>
-                                            <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                        </div>
-                                        <div class="section-user row">
-                                            <div class="section-user-title col-2">Имя сотрудника</div>
-                                            <div class="section-user-position col-2">Должность сотрудника</div>
-                                            <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                        </div>
-                                    </div>
-                                    <div class="section sub">
-                                        <div class="section-header">
-                                            <div class="section-title">
-                                                <h5>Название отдела</h5>
-                                                <span><a href="#">Руководитель отдела</a></span>
-                                            </div>
-                                            <div class="section-control">Управление</div>
-                                        </div>
-                                        <div class="section-users">
-                                            <div class="section-user row">
-                                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                            </div>
-                                            <div class="section-user row">
-                                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                            </div>
-                                            <div class="section-user row">
-                                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                            </div>
-                                            <div class="section-user row">
-                                                <div class="section-user-title col-2">Имя сотрудника</div>
-                                                <div class="section-user-position col-2">Должность сотрудника</div>
-                                                <div class="section-user-controls col-2 offset-6 text-end">Управление</div>
-                                            </div>
-                                        </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-
             </div>
         </div>
 
 
 
-        <div id="sidebar-right" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="offcanvasRightLabel">
+        <div id="sidebar-right" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="offcanvasRightLabel" style="width: 588px">
             <div class="offcanvas-header">
-                <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                <h5 id="offcanvasRightLabel"><span  class="user-info-name"></span> <small><a href="#" class="user-update-button"><i class="fa fa-pencil"></i></a></small></h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                ...
+            <div class="offcanvas-body row">
+                <div class="col-7">
+                    <div class="user-info-label">Дата рождения</div>
+                    <div class="user-info-birth user-info-text"></div>
+                    <div class="user-info-label">Должность</div>
+                    <div class="user-info-position user-info-text"></div>
+                    <div class="user-info-label">Отдел</div>
+                    <div class="user-info-section user-info-text"></div>
+                    <div class="user-info-label">Дата начала работы</div>
+                    <div class="user-info-work-begin user-info-text"></div>
+                    <div class="user-info-label">E-mail</div>
+                    <div class="user-info-email user-info-text"></div>
+                    <div class="user-info-label">Телефон (рабочий)</div>
+                    <div class="user-info-phone-work user-info-text"></div>
+                    <div class="user-info-label">Телефон (личный)</div>
+                    <div class="user-info-phone-private user-info-text"></div>
+                    <div class="user-info-label">Соцсети</div>
+                    <div class="user-info-socials user-info-text"></div>
+                </div>
+                <div class="col-5">
+                    <img src="" class="user-info-image" style="width: 100%;">
+                </div>
             </div>
         </div>
 
@@ -289,18 +193,19 @@
                                 </div>
                                 <label for="user-ava-field" class="col-sm-3 col-form-label text-end">Аватар</label>
                                 <div class="col-sm-9 mb-2">
-                                    <input type="file" class="form-control" id="user-ava-field">
+                                    <input type="file" class="form-control" id="user-ava-field" accept="image/gif,image/jpeg,image/png">
                                 </div>
                                 <div class="mb-2 form-header">Должность</div>
+                                <label for="user-director-field" class="col-sm-12 col-form-label text-end make-director">
+                                    Сделать руководителем отдела <input type="checkbox" id="user-director-field" class="form-checkbox">
+                                </label>
                                 <label for="user-section-field" class="col-sm-3 col-form-label text-end">Отдел</label>
                                 <div class="col-sm-9 mb-2">
-                                    <select class="form-select" id="user-section-field">
-                                        <option value="0">Главный</option>
-                                    </select>
+                                    <select class="form-select" id="user-section-field"></select>
                                 </div>
                                 <label for="user-position-field" class="col-sm-3 col-form-label text-end">Должность</label>
                                 <div class="col-sm-9 mb-2">
-                                    <input type="text" class="form-control" id="user-position-field">
+                                    <input type="text" class="form-control" id="user-position-field" required="required">
                                 </div>
                                 <label for="user-work-begin-field" class="col-sm-3 col-form-label text-end">Дата начала работы</label>
                                 <div class="col-sm-9 mb-2">
@@ -315,20 +220,21 @@
                                 <div class="col-sm-9 mb-2">
                                     <input type="text" class="form-control" id="user-phone-work-field">
                                 </div>
-                                <label for="user-phone-pers-field" class="col-sm-3 col-form-label text-end">Телефон (личный)</label>
+                                <label for="user-phone-private-field" class="col-sm-3 col-form-label text-end">Телефон (личный)</label>
                                 <div class="col-sm-9 mb-2">
-                                    <input type="text" class="form-control" id="user-phone-pers-field">
+                                    <input type="text" class="form-control" id="user-phone-private-field">
                                 </div>
                                 <label class="col-sm-3 col-form-label text-end">Соцсети</label>
-                                <div class="col-sm-9 mb-2">
-                                    <input type="text" class="form-control" class="user-social-field">
+                                <div class="col-sm-9 mb-2 user-socials-fields">
+                                    <input type="text" class="form-control user-social-field">
                                 </div>
+                                <a href="#" class="col-sm-12 text-end add-socials-field">+ добавить поле</a>
                             </div>
                         </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отменить</button>
-                        <button type="button" class="btn btn-primary" id="user-form-submit" form="user-update-form" disabled="disabled">Сохранить</button>
+                        <input type="submit" class="btn btn-primary" id="user-form-submit" form="user-update-form" value="Сохранить">
                     </div>
                 </div>
             </div>

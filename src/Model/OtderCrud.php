@@ -33,7 +33,7 @@ class OtderCrud implements CrudInterface
             $query = $this->db->executeQuery("SELECT * FROM sections WHERE id = :id", $data);
             return $query->fetchAssociative();
         }
-
+        return null;
     }
 
     public function update($data)
@@ -50,9 +50,19 @@ class OtderCrud implements CrudInterface
         return $data['id'];
     }
 
+    public function updateDirector($data)
+    {
+        if(array_key_exists('id', $data) && array_key_exists('director', $data)) {
+            $this->db->executeQuery("UPDATE sections SET director = :director WHERE id = :id", $data);
+            return true;
+        }
+        return false;
+    }
+
     public function delete($data)
     {
         // TODO: Implement delete() method.
+        // Удаление не предусмотрено в рамках данной задачи. Но структурно метод зарезервирован
     }
 
     private function getSectionArray($row)
